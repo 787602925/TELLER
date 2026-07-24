@@ -181,7 +181,7 @@ bash scripts/00_setup_env.sh
 
 ## 4. Training pipeline overview
 
-Dual-Path Iterative Preference Optimization: direct-answer error mining feeds DPO, while reasoning error mining feeds L-RPO, both refreshed every iteration.
+![Dual-Path Iterative Preference Optimization: direct-answer error mining feeds DPO, while reasoning error mining feeds L-RPO, both refreshed every iteration.](assets/paper_figures/iterative_lrpo.png)
 
 *Figure 1 from our paper — **Dual-Path Iterative Preference Optimization**. Top: the direct-answer path mines errors from the current policy and trains DPO on the resulting chosen/rejected pairs. Bottom: the reasoning path mines reasoning errors and trains L-RPO (length-normalized DPO + a chosen-response likelihood term). Both paths feed the updated policy back into the next iteration's error mining.*
 

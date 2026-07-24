@@ -181,7 +181,7 @@ bash scripts/00_setup_env.sh
 
 ## 4. 训练流程总览
 
-双路径迭代偏好优化：直接答案路径的错误挖掘喂给 DPO，推理路径的错误挖掘喂给 L-RPO，每轮迭代都用更新后的策略重新挖掘错误。
+![双路径迭代偏好优化：直接答案路径的错误挖掘喂给 DPO，推理路径的错误挖掘喂给 L-RPO，每轮迭代都用更新后的策略重新挖掘错误。](assets/paper_figures/iterative_lrpo.png)
 
 *论文 Figure 1 ——**双路径迭代偏好优化（Dual-Path Iterative Preference Optimization）**。上半部分：直接答案路径用当前策略挖掘错误，构造 chosen/rejected 对后训练 DPO；下半部分：推理路径挖掘推理错误，训练 L-RPO（长度归一化 DPO + chosen 回答似然项）。两条路径都会把更新后的策略反馈回下一轮的错误挖掘。*
 
