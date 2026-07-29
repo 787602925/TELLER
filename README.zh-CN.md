@@ -74,6 +74,12 @@ ds = load_dataset("osunlp/TableInstruct")
 /DATA1/khli/tablellama/ent_link_test_simplified.json
 ```
 
+### 1.4 CoT-SFT 和 L-RPO 训练数据（可直接使用，两轮都有）
+
+`CoT_SFT` 的训练数据，以及路线 B（第 6 节）**两轮** `L-RPO` 的训练数据，都放在下面这个链接里：
+
+[https://drive.google.com/drive/folders/1sFFNwRhyzyrelDKn6Z-S_Vac_BaCiD3R?usp=sharing](https://drive.google.com/drive/folders/1sFFNwRhyzyrelDKn6Z-S_Vac_BaCiD3R?usp=sharing)
+
 ---
 
 

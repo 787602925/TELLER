@@ -74,6 +74,12 @@ This project only uses the entity-linking test set from `/eval_data` for **cross
 /DATA1/khli/tablellama/ent_link_test_simplified.json
 ```
 
+### 1.4 CoT-SFT and L-RPO training data (ready-to-use, both rounds)
+
+The `CoT_SFT` training data and the training data for **both rounds** of `L-RPO` (Route B, section 6) are shared here:
+
+[https://drive.google.com/drive/folders/1sFFNwRhyzyrelDKn6Z-S_Vac_BaCiD3R?usp=sharing](https://drive.google.com/drive/folders/1sFFNwRhyzyrelDKn6Z-S_Vac_BaCiD3R?usp=sharing)
+
 ---
 
 
